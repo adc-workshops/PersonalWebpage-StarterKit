@@ -1,0 +1,172 @@
+/****************/
+/* Font Imports */
+/****************/
+
+@font-face {
+  font-family: Avenir;
+  src: url(../fonts/avenir.otf) format(opentype);
+}
+
+
+/***************/
+/* Scaffolding */
+/***************/
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100% !important;
+  font-family: 'Avenir', sans-serif;
+}
+
+body > .container {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+}
+
+
+/************************/
+/* Provided CSS Styling */
+/************************/
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.navbar-default {
+  display: none;
+  font-size: 20px;
+  background-color: #AAA;
+}
+
+.navbar-default img {
+  max-height: 50px;
+  margin-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 100%;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #C7E5FF;
+}
+
+.jumbotron {
+  margin: 0;
+  text-align: center;
+}
+
+.jumbotron .jumbo-name {
+  font-size: 80px;
+  color: white;
+}
+
+.jumbotron a {
+  display: block;
+}
+
+.jumbotron a:hover {
+  text-decoration: none;
+}
+
+.jumbotron .resume {
+  background-color: white;
+  color: #000;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.jumbotron .tagline {
+  color: white;
+  font-size: 30px;
+}
+
+.jumbotron img {
+  margin: 0 auto 0 auto;
+  max-height: 400px;
+  margin-bottom: 15px;
+}
+
+.experience {
+  margin-top: 20px;
+  border: 1px solid white;
+  min-height: 120px;
+  height: auto;
+  padding: 10px 0;
+}
+
+.name {
+  font-size: 55px;
+}
+
+.description {
+  font-size: 22px;
+}
+
+.title {
+  display: block;
+  font-size: 60px;
+  text-align: center;
+}
+
+.subtitle {
+  display: block;
+  font-size: 22px;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.blockquote-reverse {
+  border-color: white;
+  margin: 0 auto;
+}
+
+.blockquote-reverse p {
+  font-size: 22px;
+}
+
+.blockquote-reverse p i {
+  color: white;
+  margin-right: 5px;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer p {
+  font-size: 25px;
+}
+
+#footer ul {
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+#footer ul li {
+  display: inline;
+  margin: 0 20px;
+  color: #aaa;
+}
+
+#footer ul li a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+
+/*********************************/
+/* Insert Custom/New CSS Styling */
+/*********************************/
